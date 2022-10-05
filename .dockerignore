@@ -4,3 +4,5 @@ docker-compose.yml
 docker-test-1-kernal.sh
 .gitignore
 .dockerignore
+screenshots
+
