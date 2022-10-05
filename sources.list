@@ -1,0 +1,4 @@
+# python docker image version: python:3.7-slim-stretch
+
+deb http://ftp.jp.debian.org/debian stretch main
+deb-src http://ftp.jp.debian.org/debian stretch main

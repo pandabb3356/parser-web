@@ -1,0 +1,4 @@
+DATETIME_FORMAT = '%Y-%m-%dT%H:%M:%SZ'
+DATE_DISPLAY_FORMAT = '%Y-%m-%d'
+
+FILE_TIME_DISPLAY = '%Y%m%d_%H%M'

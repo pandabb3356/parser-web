@@ -1,0 +1,11 @@
+.idea
+*.pyc
+*.log
+*.ipynb
+
+docker-compose.yml
+docker-test-1-kernal.sh
+node_modules
+dist
+
+migrate/**/__pycache__/

@@ -1,0 +1,19 @@
+field_selector
+    =
+    fields+:field { ',' >> fields+:field } >>
+    ;
+
+field
+    =
+    name:identifier [sub_fields:sub_selector]
+    ;
+
+sub_selector
+    =
+    '(' @:field_selector ')'
+    ;
+
+identifier
+    =
+    ?/[_a-z]+/?
+    ;
